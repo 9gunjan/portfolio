@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "vite build && aws s3 sync ./dist/ s3://gunzz --delete && aws cloudfront create-invalidation --distribution-id E37E8KE5Y4FL5 --paths '/*'"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
