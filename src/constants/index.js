@@ -22,6 +22,7 @@ import {
   foodie,
   netflix,
   threejs,
+  filo,
 } from "../assets";
 
 export const navLinks = [
@@ -107,7 +108,7 @@ const experiences = [
     company_name: "Delhi University",
     icon: du,
     iconBg: "#383E56",
-    date: "Mar 2017 - Jul 2020 , CGPA-7.16",
+    date: "Mar 2017 - Jul 2020 , CGPA-8.2",
     points: [
       "Coursework : Advanced English, Computer Fundamentals, Calculus, Database Management Systems, Algebra, Computer Networks and Internet Technologies, Latex, Analytic Geometry and Applied Algebra, Multimedia Systems and Applications, Computer Algebra, Analysis, Programming with Python, Statistical Software: R, Differential Equations, Statistics, Software Engineering ",
     ],
@@ -130,13 +131,26 @@ const experiences = [
     company_name: "Accenture",
     icon: accenture,
     iconBg: "#383E56",
-    date: "August 2022 - August 2024",
+    date: "August 2022 - December 2023",
     points: [
       "Developed highly interactive, mobile-responsive UIs for multiple projects using React.js and Tailwind CSS, resulting in a 40% increase in user engagement and a seamless experience across devices.",
       "Created reusable components and integrated component libraries to ensure maintainability and consistency across multiple projects, reducing development time by 20%.",
       "Reduced page load time by 30% through the implementation of code splitting and lazy loading techniques, improving the site’s performance and SEO rankings.",
       "Collaborated with the backend team to integrate REST APIs, improving data synchronization by 20% and enhancing real-time data updates.",
       "Led the adoption of Tailwind CSS in a major project, significantly improving code readability, maintainability, and reducing the CSS file size by 50%."
+    ],
+  },
+  {
+    title: "Frontend Software Engineer",
+    company_name: "Filo",
+    icon: filo,
+    iconBg: "#383E56",
+    date: "December 2023 - November 2024",
+    points: [
+      "Real-Time Systems: Revamped a WhatsApp-style chat feature using React.js, improving user engagement and increasing NPS by 30%.",
+      "Technical Ownership: Designed and developed the About Us page from scratch, resolved unnecessary re-renders across multiple pages.",
+      "Process Automation: Built a dynamic, data-driven careers page using Google Sheets and Docs API, increasing user applications by 32%.",
+      "Performance Optimization: Optimized the build to enhance web vital scores, and reduced load time by 13%.",
     ],
   },
 ];

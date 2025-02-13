@@ -25,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 import du from "./company/du.png";
 import accenture from "./company/accenture.png";
 import igdtuw from "./company/igdtuw.png";
+import filo from "./company/filo.png";
 
 import foodie from "./foodie.png";
 import netflix from "./netflix.png";
@@ -58,4 +59,5 @@ export {
   youtube,
   foodie,
   netflix,
+  filo
 };
